@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
+
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Aquí comienzan mis clases */
+
+/* variables */
+:root {
+    /* -- colors -- */
+    --dark-blue: #1665a4;
+    --light-blue: #2299d6;
+    --grey:#6a6a6e;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif !important;
+    height: 100%;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.no-padding {
+    padding: 0 !important;
+}
+
+/* menu y cabezote*/
+nav.menu {
+    background-color: var(--dark-blue) !important;
+    display: flex;
+    width: 100%;
+    color: white !important;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 4;
+    padding: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header ul li {   
+    list-style: none;
+    padding: 0;
+  
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
+
+header a:hover{
+    background-color: var(--light-blue);
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    padding: 18px !important;
+    margin-top: 0;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: var(--dark-blue) !important;
+
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item a:hover {
+    color: var(--light-blue) !important;
+
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-blue) !important;
+}
+
+/* top image and texts*/
+.top-home {
+    margin-right: 0;
+    margin-left: 0;    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;  
+    position: relative;
+}
+
+.desc-top-home {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.img-full {
+    max-width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    padding-top: 170px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
+
+.welcome-text {
+    text-align: center;
+    color: var(--dark-blue);
+    text-decoration: none;
+    font-size: 21px;
+    background-color: white;
+}
+
+  
+.welcome-description {
+    color: var(--dark-blue);
+    font-size: 20px;
+}
+
+
+/* about (resumen) me info*/
+.about-me {
+    margin-top: 0;
+    background-color: lightgrey;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about-me-info {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.about-me-text {
+    padding-right: 80px;
+}
+
+.about-me-pic {
+    text-align: right;
+}
+
+.profile-pic {
+    width: 210px;
+    height: 210px;
+}
+
+h2 {
+    padding-top: 10px;
+    color: var(--grey);
+    font-size: 20px;
+}
+
+p {
+    color: var(--grey);
+    font-size: 16px;
+}
+
+/* specific work*/
+
+.selection-work {
+    margin-top: 40px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: var(--light-blue) !important;
+}
+
+h3 {
+    padding-top: 10px;
+    color: var(--grey);
+    font-size: 16px;
+}
+
+/* contact info*/
+.contact-me {
+    margin-top: 25px;
+    background-color: var(--dark-blue);
+    padding-top: 45px;
+    color: white;
+    margin-bottom: 0;
+    margin-right: 0 !important;
+    padding-bottom: 40px; 
+}
+
+.contact-me-text {
+    color: white;
+
+}
+
+button.btn-primary {
+    background-color: var(--light-blue)!important;
+}
+
+button.btn-primary:hover {
+    background-color: var(--dark-blue)!important;
+}
+
+i.fa-github, .fa-linkedin, .fa-facebook-square {
+    color: white;
+    font-size: 40px;
+}
+
+/* footer*/
+footer {
+    background-color: lightgrey;
+    margin-top: 0;
+    color: var(--grey);
+    height: 60px;
+    margin-bottom: 0;
+}
+
+/* aquí empiezan las clases de la pag de web dev projects */
+
+.top-section-web {
+    margin-right: 0;
+    margin-left: 0;    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative; 
+}
+
+.desc-top-section-web {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.welcome-web-dev {
+    padding-top: 150px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
+
+.web-projects {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    display: inline-flex;
+    padding-right: 30px;
+    margin-right: auto !important;
+    margin-left: auto !important;;
+}
+
+.project-pic {
+    width: 265px;
+    height: 150px;
+}
+
+.project-container {
+    width: 280px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+}
+
+.card-title {
+    color: var(--grey);
+    font-size: 18px;
+}
+
+.card-text {
+    color: var(--grey);
+    font-size: 14px;
+}
+
+/*empiezan las clases de la pagina de profile*/
+
+.top-section-profile {
+    margin-right: 0;
+    margin-left: 0;    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 55px;
+}
+
+.profile-desc {
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+
+.subtitle-text {
+    margin-top: px;
+}
+
+.container-profile {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    padding-bottom: 35px;
+    max-width: 100%;
+}
+
+.top-profile {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+.cont-text-top-profile {
+    margin-bottom: 35px;
+}
+
+.profile-subt {
+    padding-top: 70px;
+}
+
+.profile2 {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.blockquote-text {
+    font-style: oblique;
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+.blockquote-bg {
+    /*border: solid 1px darkgrey;*/
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.important-tools {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.list-tools {
+    margin-top: 50px;
+    border: dotted 1px grey;
+    width: 750px;
+    margin-bottom: 50px;
+}
+
+.list-items-lblue {
+    color: var(--light-blue);
+}
+
+.list-items-dblue {
+    color: var(--dark-blue);
+}
+
+/* aquí empiezan las clases de la pag de content writing */
+.top-sec-writing {
+    margin-right: 0;
+    margin-left: 0;    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative; 
+}
+
+.desc-top-section-writing {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.welcome-writing {
+    padding-top: 150px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
+
+/*aquí empiezanEstilos de marketing*/
+.top-section-mkt {
+    margin-right: 0;
+    margin-left: 0;    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative; 
+}
+
+.welcome-mkt {
+    padding-top: 150px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
+
+
