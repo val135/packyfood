@@ -40,12 +40,5 @@ export const restaurantsData = [
         text: `Podrás adquirir un paquete sorpresa
         con productos como Sr. Wok`,
         botonVerMas: 'otro pagina del producto',             
-    },
-    {
-        imgLogo: '',
-        nameRestaurant: '',
-        text: `Podrás adquirir un paquete sorpresa
-        con productos como Mundo Verde`,
-        botonVerMas: 'otro pagina del producto',            
     }
 ];

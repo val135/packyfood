@@ -5,9 +5,6 @@ import About from '../components/About';
 import Navbar from '../components/Navbar';
 import Cards from '../components/Cards';
 
-
-
-
 function App() {
   return (
     <>
