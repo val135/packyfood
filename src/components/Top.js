@@ -9,7 +9,7 @@ function Top() {
                 <img src="/index-header-bg.png" alt="" className="img-full w-100 h-100" />
                 <div className="desc-top-home">
                     <h1 className="welcome"><b>Hello, I’m Valentina!</b></h1>
-                    <div className="welcome-text container rounded center shadow-sm"><p class="welcome-description">Graphic Communicator &amp; Front-End Web Developer Student</p></div>
+                    <div className="welcome-text container rounded center shadow-sm"><p className="welcome-description">Graphic Communicator &amp; Front-End Web Developer Student</p></div>
                 </div>
             </div>
         </div>
