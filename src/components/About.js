@@ -13,7 +13,7 @@ function about() {
                 <br /><br />
                 ¡Come mejor por un precio menor!
                 </p>
-                <a href="./pages/profile.html" class="button btn btn-primary read-more mt-2">Read more</a>
+                <a href="#" class="button btn btn-primary read-more mt-2">Saber más</a>
             </div>
         </div>
 

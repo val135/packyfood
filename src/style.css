@@ -445,4 +445,9 @@ i {
     text-shadow: 1px 1px 2px var(--grey);
 }
 
+/*clases del map */
+#map {
+    background-color: aquamarine;
+    height: 300px;
+}
 
