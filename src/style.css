@@ -1,37 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
 
-/*
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-*/
 
 @keyframes App-logo-spin {
   from {
@@ -47,8 +15,8 @@
 /* variables */
 :root {
     /* -- colors -- */
-    --dark-blue: #1665a4;
-    --light-blue: #2299d6;
+    --orange: #D8610F;
+    --light-brown: #c9ae6b;
     --grey:#6a6a6e;
 }
 
@@ -74,7 +42,7 @@ body {
 
 /* menu y cabezote*/
 nav.menu {
-    background-color: var(--dark-blue) !important;
+    background-color: var(--orange) !important;
     display: flex;
     width: 100%;
     color: white !important;
@@ -82,6 +50,18 @@ nav.menu {
     font-weight: 600;
     z-index: 4;
     padding: 0;
+}
+
+.logo-left {
+    padding-left: 25px;
+}
+
+.nav-item {
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
 }
 
 header ul {
@@ -104,7 +84,7 @@ header li a {
 }
 
 header a:hover{
-    background-color: var(--light-blue);
+    background-color: var(--light-brown);
     color: white;
     text-decoration: none;
 }
@@ -116,7 +96,7 @@ header a:hover{
 }
 
 .dropdown-menu {
-    background-color: var(--dark-blue) !important;
+    background-color: var(--orange) !important;
 
 }
 
@@ -125,12 +105,12 @@ header a:hover{
 }
 
 .dropdown-item a:hover {
-    color: var(--light-blue) !important;
+    color: var(--light-brown) !important;
 
 }
 
 .dropdown-item:hover {
-    background-color: var(--light-blue) !important;
+    background-color: var(--light-brown) !important;
 }
 
 /* top image and texts*/
@@ -157,29 +137,29 @@ header a:hover{
 }
 
 .welcome {
-    padding-top: 170px;
+    padding-top: 25px;
     text-shadow: 1px 1px 2px var(--grey);
+    font-size: 45px;
 }
 
 .welcome-text {
     text-align: center;
-    color: var(--dark-blue);
+    color: var(--orange);
     text-decoration: none;
     font-size: 21px;
-    background-color: white;
 }
 
   
 .welcome-description {
-    color: var(--dark-blue);
+    color: var(--orange);
     font-size: 20px;
 }
 
 
-/* about (resumen) me info*/
+/* about the business*/
 .about-me {
     margin-top: 0;
-    background-color: lightgrey;
+    background-color: #F2E4C1;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -221,7 +201,7 @@ p {
 
 .btn-primary {
     border-radius: 5px;
-    background-color: var(--light-blue) !important;
+    background-color: var(--orange) !important;
 }
 
 h3 {
@@ -233,8 +213,8 @@ h3 {
 /* contact info*/
 .contact-me {
     margin-top: 25px;
-    background-color: var(--dark-blue);
-    padding-top: 45px;
+    background-color: var(--orange);
+    padding-top: 25px;
     color: white;
     margin-bottom: 0;
     margin-right: 0 !important;
@@ -247,11 +227,11 @@ h3 {
 }
 
 button.btn-primary {
-    background-color: var(--light-blue)!important;
+    background-color: var(--orange)!important;
 }
 
 button.btn-primary:hover {
-    background-color: var(--dark-blue)!important;
+    background-color: #BD4D00 !important;
 }
 
 i.fa-github, .fa-linkedin, .fa-facebook-square {
@@ -266,6 +246,21 @@ footer {
     color: var(--grey);
     height: 60px;
     margin-bottom: 0;
+}
+
+.contact-info {
+    padding-left: 100px;
+}
+
+.social-media {
+    color: white;
+    text-align: center;
+}
+
+i {
+    color: white;
+    padding-left: 15px;
+    
 }
 
 /* aquí empiezan las clases de la pag de web dev projects */
@@ -341,7 +336,7 @@ footer {
 
 .profile-desc {
     font-size: 20px;
-    color: var(--dark-blue);
+    color: var(--orange);
 }
 
 .subtitle-text {
@@ -404,7 +399,7 @@ footer {
 }
 
 .list-items-lblue {
-    color: var(--light-blue);
+    color: var(--light-brown);
 }
 
 .list-items-dblue {
