@@ -37,9 +37,44 @@ export const restaurantsData = [
     }
 ];
 
+export const frisbyData = {
+    nameRestaurant: 'Frisby',
+    price: 10000,
+    imgFood: '1frisbyFood.jpg?alt=media&token=6d860436-d6ca-486f-b5e4-fc034eb69581',
+    surpriseDescription: `Podrás encontrar preparados con pollo. Hamburguesas, ensaladas, pollo asado.`,
+}
+
+export const mundoVerdeData = {
+    nameRestaurant: 'Mundo Verde',
+    price: 10000,
+    imgFood: '2mundoVerdeFood.jpg?alt=media&token=4b788cd9-cc46-4580-a9ac-a1a2591bc46d',
+    surpriseDescription: `Podrás encontrar ensaladas, wraps, bowls.`,
+}
+
+export const ilFornoData = {
+    nameRestaurant: 'Il forno',
+    price: 10000,
+    imgFood: '3ilfornoFood.jpg?alt=media&token=122a6e75-1ec7-4420-b041-d9ae4c0cb113',
+    surpriseDescription: `Podrás encontrar ensaladas, pastas, pizzas, platos combinados, postres.`,
+}
+
+export const losPortenosData = {
+    nameRestaurant: 'Los Porteños',
+    price: 10000,
+    imgFood: '4portenoFood.jpg?alt=media&token=edc9b21d-8367-4bb9-a4a0-8a930f55b3b3',
+    surpriseDescription: `Podrás encontrar las mejores medias lunas de Medellín y excelente panadería.`,
+}
+
+export const cosechasData = {
+    nameRestaurant: 'Cosechas',
+    price: 10000,
+    imgFood: 'packyfood-80156.appspot.com/o/5cosechasbatido.jpg?alt=media&token=9dd0a3ab-e7cb-4bbc-b0e7-6e857a68309e',
+    surpriseDescription: `Todas las combinaciones de frutos posibles en un batido.`,
+}
+
 export const srWokData = {
     nameRestaurant: 'Sr. Wok',
     price: 10000,
-    imgFood: '',
-    surpriseDescription: 'hahdhafnnalng',
+    imgFood: '6srWokFood.jpg?alt=media&token=79ac992d-69f8-4784-9e66-47d7e6d04e44',
+    surpriseDescription: 'Comida con inspiración oriental',
 }
