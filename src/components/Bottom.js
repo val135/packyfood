@@ -7,6 +7,7 @@ function Bottom() {
             <div className="row contacto mx-0 w-100">
 
                 <div className="col-xs-12 col-sm-12 col-md-12 contact-info text-center">
+                <a href='/' name="targetcontact" alt="contacto" style={{visibility: 'hidden'}}>Go to bottom</a>
                     <h2 className="text-white"><b>¿Tienes preguntas o sugerencias?</b></h2>
                     <p className="contacto-texto">¡Contáctanos! Estaremos felices de atenderte
                <br />
