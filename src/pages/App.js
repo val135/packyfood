@@ -16,7 +16,7 @@ function App() {
       </header>
       <Switch>
         <Route exact path='/' component={InitialView} />
-        <Route exact path='/buy-view' component={BuyView} />
+        <Route exact path='/buy-view/:id' component={BuyView} />
       </Switch>      
       <footer>
         <Bottom />
