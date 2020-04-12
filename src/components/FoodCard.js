@@ -10,9 +10,9 @@ const FoodCard = (props) => {
                     alt={`${props.title}-cardImage`} />
             </div>    
             <div >
-                <h5 >{props.nameRestaurant}</h5>
-                <p >{props.surpriseDescription}</p>
-                <p >Precio: {props.price}</p>
+                <h5 className="product-title" >{props.nameRestaurant}</h5>
+                <p className="product-text" >{props.surpriseDescription}</p>
+                <p className="product-price">Precio: {props.price}</p>
             </div>
       </div>
     );

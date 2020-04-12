@@ -71,7 +71,7 @@ export const restaurantProduct = {
     cosechas: {
         nameRestaurant: 'Cosechas',
         price: 10000,
-        imgFood: 'packyfood-80156.appspot.com/o/5cosechasbatido.jpg?alt=media&token=9dd0a3ab-e7cb-4bbc-b0e7-6e857a68309e',
+        imgFood: '5cosechasbatido.jpg?alt=media&token=9dd0a3ab-e7cb-4bbc-b0e7-6e857a68309e',
         surpriseDescription: `Todas las combinaciones de frutos posibles en un batido.`,
     },
     srwok: {
