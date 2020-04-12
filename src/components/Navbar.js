@@ -1,17 +1,7 @@
 import React from 'react';
 
 function Navbar() {
-    return (
-        /*
-        <nav className="menu navbar navbar-expand-lg navbar-toggler justify-content-center text-center fixed-top">
-            <ul className="navbar-nav">
-                <li className="nav-item"><a className="nav-link" href="">HOME</a></li>
-                <li className="nav-item"><a className="nav-link" href="">ABOUT ME</a></li>
-                <li className="nav-item"><a className="nav-link" href="">PROJECTS</a></li>
-                <li className="nav-item"><a className="nav-link" href="">CONTACT</a></li>
-            </ul>
-        </nav>
-        */
+    return (   
         <nav className="menu navbar navbar-expand navbar-dark fixed-top">
             <img src="/packyfood-logo-white.png" className="logo-left"/>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">

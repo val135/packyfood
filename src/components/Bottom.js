@@ -3,7 +3,6 @@ import React from 'react'
 
 function Bottom() {
     return (
-
         <div className="container-fluid">
             <div className="row contact-me mx-0 w-100">
 

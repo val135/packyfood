@@ -2,9 +2,6 @@ import React from 'react';
 
 function about() {
     return (
-        <div className="row about-me mx-0">
-            <div className="col-xs-12 col-sm-6 col-md-4 pr-4 about-me-pic"><a name="targetabout"></a>
-                <img className="profile-pic rounded-circle justify-content-end" src="/about-packy.png" alt="Valentina Arango Eastman" />
             </div>
             <div className="col-xs-12 col-sm-6 col-md-8 px-5 about-me-info">
                 <h2><b>¿Qué hacemos?</b></h2>

@@ -7,7 +7,6 @@ import Cards from '../components/Cards';
 import MapContainer  from '../components/MapContainer';
 
 
-
 function App() {
   return (
     <>
