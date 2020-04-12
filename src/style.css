@@ -35,6 +35,7 @@ body {
 .container-fluid {
     padding: 0;
 }
+
 .no-padding {
     padding: 0 !important;
 }
@@ -112,8 +113,8 @@ header a:hover{
     background-color: var(--light-brown) !important;
 }
 
-/* top image and texts*/
-.top-home {
+/* top imagen y textos*/
+.top-inicio {
     margin-right: 0;
     margin-left: 0;    
     text-align: center;
@@ -123,7 +124,7 @@ header a:hover{
     position: relative;
 }
 
-.desc-top-home {
+.desc-top-inicio {
     position: absolute;
     left: 50%;
     top: 40%;
@@ -135,14 +136,14 @@ header a:hover{
     height: 100%;
 }
 
-.welcome {
+.top-container {
     padding-top: 25px;
     text-shadow: 1px 1px 2px var(--grey);
     font-size: 45px;
     font-family: 'Bree Serif', serif !important;
 }
 
-.welcome-text {
+.top-text {
     text-align: center;
     color: var(--orange);
     text-decoration: none;
@@ -150,35 +151,29 @@ header a:hover{
     padding-top: 15px;
 }
 
-  
-.welcome-description {
-    color: var(--orange);
-    font-size: 20px;
-}
-
 
 /* about the business*/
-.about-me {
+.about-container {
     margin-top: 0;
     background-color: #F2E4C1;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.about-me-info {
+.about-info {
     padding-right: 40px;
     padding-left: 40px;
 }
 
-.about-me-text {
+.about-texto {
     padding-right: 80px;
 }
 
-.about-me-pic {
+.foto-about-cont {
     text-align: right;
 }
 
-.profile-pic {
+.foto-about {
     width: 210px;
     height: 210px;
 }
@@ -194,9 +189,8 @@ p {
     font-size: 16px;
 }
 
-/* specific work*/
-
-.selection-restaurants {
+/* cards restaurantes*/
+.selection-restaurantes {
     margin-top: 60px;
     font-size: 23px;
 }
@@ -213,7 +207,7 @@ h3 {
 }
 
 /* contact info*/
-.contact-me {
+.contacto {
     background-color: var(--grey);
     padding-top: 25px;
     color: white;
@@ -222,7 +216,7 @@ h3 {
     padding-bottom: 40px; 
 }
 
-.contact-me-text {
+.contacto-texto {
     color: white;
 
 }
@@ -249,7 +243,7 @@ footer {
     margin-bottom: 0;
 }
 
-
+/* social media contenido*/
 .social-media {
     color: white;
     text-align: center;
@@ -261,30 +255,7 @@ i {
     
 }
 
-/* aquí empiezan las clases de la pag de web dev projects */
-
-.top-section-web {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative; 
-}
-
-.desc-top-section-web {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.welcome-web-dev {
-    padding-top: 150px;
-    text-shadow: 1px 1px 2px var(--grey);
-}
-
+/* clases contenedor de las cards */
 .cont-restaurantes {
     margin-bottom: 30px;
     padding-top: 30px;
@@ -294,16 +265,17 @@ i {
     margin-left: auto !important;;
 }
 
-.project-pic {
+.logo-restaurante {
     width: 265px;
     height: 150px;
 }
 
-.project-container {
+.cont-restaurante {
     width: 280px;
     padding: 20px;
 }
 
+/*clases del las cards */
 .card {
     width: 300px;
     padding: 20px;
@@ -318,129 +290,6 @@ i {
 .card-text {
     color: var(--grey);
     font-size: 14px;
-}
-
-/*empiezan las clases de la pagina de profile*/
-
-.top-section-profile {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 55px;
-}
-
-.profile-desc {
-    font-size: 20px;
-    color: var(--orange);
-}
-
-.subtitle-text {
-    margin-top: px;
-}
-
-.container-profile {
-    margin-top: 50px;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
-    padding-bottom: 35px;
-    max-width: 100%;
-}
-
-.top-profile {
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
-}
-
-.cont-text-top-profile {
-    margin-bottom: 35px;
-}
-
-.profile-subt {
-    padding-top: 70px;
-}
-
-.profile2 {
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.blockquote-text {
-    font-style: oblique;
-    font-size: 28px;
-    margin-top: 0px;
-}
-
-.blockquote-bg {
-    /*border: solid 1px darkgrey;*/
-    width: 500px;
-    text-align: center;
-    margin: auto;
-    margin-top: 25px;
-}
-
-.important-tools {
-    margin: 50px auto;
-    text-align: center;
-}
-
-.list-tools {
-    margin-top: 50px;
-    border: dotted 1px grey;
-    width: 750px;
-    margin-bottom: 50px;
-}
-
-.list-items-lblue {
-    color: var(--light-brown);
-}
-
-.list-items-dblue {
-    color: var(--dark-blue);
-}
-
-/* aquí empiezan las clases de la pag de content writing */
-.top-sec-writing {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative; 
-}
-
-.desc-top-section-writing {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.welcome-writing {
-    padding-top: 150px;
-    text-shadow: 1px 1px 2px var(--grey);
-}
-
-/*aquí empiezanEstilos de marketing*/
-.top-section-mkt {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative; 
-}
-
-.welcome-mkt {
-    padding-top: 150px;
-    text-shadow: 1px 1px 2px var(--grey);
 }
 
 /*clases del map */
