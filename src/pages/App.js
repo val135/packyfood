@@ -1,28 +1,27 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import Bottom from '../components/Bottom';
 import Top from '../components/Top';
-import About from '../components/About';
+import InitialView from '../pages/InitialView';
 import Navbar from '../components/Navbar';
-import Cards from '../components/Cards';
-import MapContainer  from '../components/MapContainer';
+import BuyView from '../pages/BuyView';
 
 
 function App() {
   return (
-    <>
-    <header>
-      <Navbar />
-      <Top />
-    </header>
-    <main>  
-      <About />
-      <Cards />
-      <MapContainer />
-    </main>
-    <footer>
-      <Bottom />
-    </footer>  
-    </>
+    <div>
+      <header>
+        <Navbar />
+        <Top />
+      </header>
+      <Switch>
+        <Route exact path='/' component={InitialView} />
+        <Route exact path='/buy-view' component={BuyView} />
+      </Switch>      
+      <footer>
+        <Bottom />
+      </footer>  
+    </div>
   );
 }
 
