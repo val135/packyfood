@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Titillium+Web:wght@200;300;400;700&display=swap');
 
 
 @keyframes App-logo-spin {
@@ -140,6 +140,7 @@ header a:hover{
     padding-top: 25px;
     text-shadow: 1px 1px 2px var(--grey);
     font-size: 45px;
+    font-family: 'Bree Serif', serif !important;
 }
 
 .welcome-text {
@@ -147,6 +148,7 @@ header a:hover{
     color: var(--orange);
     text-decoration: none;
     font-size: 21px;
+    padding-top: 15px;
 }
 
   
@@ -212,8 +214,7 @@ h3 {
 
 /* contact info*/
 .contact-me {
-    margin-top: 25px;
-    background-color: var(--orange);
+    background-color: var(--grey);
     padding-top: 25px;
     color: white;
     margin-bottom: 0;
@@ -248,9 +249,6 @@ footer {
     margin-bottom: 0;
 }
 
-.contact-info {
-    padding-left: 100px;
-}
 
 .social-media {
     color: white;
@@ -447,7 +445,12 @@ i {
 
 /*clases del map */
 #map {
-    background-color: aquamarine;
+    max-height: 500px;
+    height: 500px;
+}
+
+.map-container {
+    max-height: 300px;
     height: 300px;
 }
 

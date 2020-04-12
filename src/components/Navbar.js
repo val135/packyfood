@@ -6,9 +6,9 @@ function Navbar() {
         <nav className="menu navbar navbar-expand-lg navbar-toggler justify-content-center text-center fixed-top">
             <ul className="navbar-nav">
                 <li className="nav-item"><a className="nav-link" href="">HOME</a></li>
-                <li className="nav-item"><a className="nav-link" href="#targetabout">ABOUT ME</a></li>
-                <li className="nav-item"><a className="nav-link" href="#targetprojects">PROJECTS</a></li>
-                <li className="nav-item"><a className="nav-link" href="#targetcontact">CONTACT</a></li>
+                <li className="nav-item"><a className="nav-link" href="">ABOUT ME</a></li>
+                <li className="nav-item"><a className="nav-link" href="">PROJECTS</a></li>
+                <li className="nav-item"><a className="nav-link" href="">CONTACT</a></li>
             </ul>
         </nav>
         */
@@ -24,10 +24,10 @@ function Navbar() {
                             <a className="nav-link" href="#">Inicio <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Restaurantes</a>
+                            <a className="nav-link" href="#targetprojects">Restaurantes</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contacto</a>
+                            <a className="nav-link" href="#targetcontact">Contacto</a>
                         </li>
                     </ul>
                 </div>

@@ -4,7 +4,7 @@ import Top from '../components/Top';
 import About from '../components/About';
 import Navbar from '../components/Navbar';
 import Cards from '../components/Cards';
-//import { MapContainer } from '../components/MapContainer';
+import MapContainer  from '../components/MapContainer';
 
 
 
@@ -18,7 +18,7 @@ function App() {
     <main>  
       <About />
       <Cards />
-      {/*<MapContainer />*/}
+      <MapContainer />
     </main>
     <footer>
       <Bottom />

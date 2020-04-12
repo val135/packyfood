@@ -14,13 +14,13 @@ function Bottom() {
                (+57) 3002640177 | Cra 37 # 16-25, Medellín
            </p>
             
-                <div class="follow-info flex-column">
-                        <div class="contactme-text text-center ">
-                            <h5>¡Síguenos en redes!</h5>
-                        </div><div class="social-media">
-                            <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://twitter.com/DerlyVivianaMur "><i class="fab fa-twitter "></i></a>
-                            <a href="https://www.instagram.com/derlyvivianams/ "><i class="fab fa-instagram "></i></a>
+                <div className="follow-info flex-column">
+                        <div className="contactme-text text-center ">
+                            <h5><b>¡Síguenos en redes!</b></h5>
+                        </div><div className="social-media">
+                            <a href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/DerlyVivianaMur "><i className="fab fa-twitter "></i></a>
+                            <a href="https://www.instagram.com/derlyvivianams/ "><i className="fab fa-instagram "></i></a>
                         </div>
                     </div>
                     </div>
