@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { Map, GoogleApiWrapper } from 'google-maps-react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 
 const mapStyles = {
@@ -15,15 +15,26 @@ export class MapContainer extends Component {
       <div className="map-container">
       <Map
         google={this.props.google}
-        zoom={4}
+        zoom={11}
         style={mapStyles}
         initialCenter={{
          lat: 6.2518401,
          lng: -75.563591
         }}
-        />
-      </div>
-      
+        >
+        <Marker
+        name = {'Frisby'}
+        position ={{ lat: 6.2114551, lng: -75.5665609}} />
+
+        <Marker
+        name = {'Mundo Verde'}
+        position ={{ lat: 6.334997, lng: -75.558266}} />
+
+        <Marker
+        name = {'Mundo Verde'}
+        position ={{ lat: 6.272654, lng: -75.439257}} />
+        </Map>
+      </div>    
     
     );
   }

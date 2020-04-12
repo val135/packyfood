@@ -10,7 +10,6 @@
   }
 }
 
-/*Aquí comienzan mis clases */
 
 /* variables */
 :root {
@@ -197,8 +196,9 @@ p {
 
 /* specific work*/
 
-.selection-work {
-    margin-top: 40px;
+.selection-restaurants {
+    margin-top: 60px;
+    font-size: 23px;
 }
 
 .btn-primary {
@@ -285,8 +285,7 @@ i {
     text-shadow: 1px 1px 2px var(--grey);
 }
 
-.web-projects {
-    margin-top: 50px;
+.cont-restaurantes {
     margin-bottom: 30px;
     padding-top: 30px;
     display: inline-flex;
@@ -308,6 +307,7 @@ i {
 .card {
     width: 300px;
     padding: 20px;
+    margin-top:25px
 }
 
 .card-title {
@@ -450,6 +450,7 @@ i {
 }
 
 .map-container {
+    margin-top: 55px;
     max-height: 300px;
     height: 300px;
 }

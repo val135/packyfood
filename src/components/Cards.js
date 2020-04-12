@@ -6,7 +6,8 @@ import { restaurantsData } from '../restaurantsData'
 const Cards = () => {
     return (
         <div className="container-fluid">
-            <div className="row container-fluid web-projects mx-auto justify-content-center w-100"> 
+            <h3 class="text-center selection-restaurants">Selecciona tu restaurante favorito y compra un paquete sorpresa por un precio muy económico</h3>
+            <div className="row container-fluid cont-restaurantes mx-auto justify-content-center w-100"> 
                 {restaurantsData.map((restaurantData, index) => <Card key={index} {...restaurantData} />)}
             </div>
         </div> 
