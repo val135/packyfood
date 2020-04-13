@@ -1,42 +1,42 @@
 export const restaurantsData = [
     {
         id: 'frisby',
-        imgLogo: '1Frisby.png?alt=media&token=b873e4d4-abd1-4cdb-8c79-a5be89500141',
+        imgLogo: '1afrisby.png?alt=media&token=3140b097-edde-4a6a-ac5c-22036d7f4412',
         nameRestaurant: 'Frisby',
         text: `Podrás adquirir un paquete sorpresa
         con productos como Frisby Snack`         
     },
     {
         id: 'mundoverde',
-        imgLogo: '2mundoVerde.png?alt=media&token=039da407-e4ea-4e6d-a3e2-e7e9bc1e3db5',
+        imgLogo: '2amundo-verde.png?alt=media&token=489776f2-8c49-4cea-be0e-42e72870de9f',
         nameRestaurant: 'Mundo Verde',
         text:  `Podrás adquirir un paquete sorpresa
         con productos como Mundo Verde`           
     },
     {
         id: 'ilforno',
-        imgLogo: '3ilfornotest.png?alt=media&token=1de46ef6-31fb-4ff4-a8f1-6d90fccd03b1',
+        imgLogo: '3cilforno.png?alt=media&token=56c6a82e-fbef-46b4-a7fe-06d9217ff417',
         nameRestaurant: 'Il forno',
         text: `Podrás adquirir un paquete sorpresa
         con productos como Il forno`             
     },
     {
         id: 'losportenos',
-        imgLogo: '4LosPortenos.png?alt=media&token=50575e9e-bf91-455f-9513-d6c08a3125b8',
+        imgLogo: '4dportenos.png?alt=media&token=64114ade-8761-4383-8d66-f62aef024736',
         nameRestaurant: 'Los Porteños',
         text: `Podrás adquirir un paquete sorpresa
         con productos como Los Porteños`           
     },
     {
         id: 'cosechas',
-        imgLogo: '5Cosechas.png?alt=media&token=cb46d626-912b-4719-813f-7b062ea72cf8',
+        imgLogo: '5eunnamed.png?alt=media&token=93f7dc48-872b-4ef7-b6d3-d2fcdf831d64',
         nameRestaurant: 'Cosechas',
         text: `Podrás adquirir un paquete sorpresa
         con productos como Cosechas`             
     },
     {
         id: 'srwok',
-        imgLogo: '6Wok.png?alt=media&token=d5d583eb-263b-4c13-90b2-3f897069f6e9',
+        imgLogo: '6wok.png?alt=media&token=f1d83ce2-2c20-423d-9f21-fae955efab7a',
         nameRestaurant: 'Sr. Wok',
         text: `Podrás adquirir un paquete sorpresa
         con productos como Sr. Wok`             
