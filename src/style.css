@@ -1,37 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Titillium+Web:wght@200;300;400;700&display=swap');
 
-/*
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-*/
 
 @keyframes App-logo-spin {
   from {
@@ -42,13 +10,12 @@
   }
 }
 
-/*Aquí comienzan mis clases */
 
 /* variables */
 :root {
     /* -- colors -- */
-    --dark-blue: #1665a4;
-    --light-blue: #2299d6;
+    --orange: #D8610F;
+    --light-brown: #c9ae6b;
     --grey:#6a6a6e;
 }
 
@@ -61,20 +28,21 @@ html, body {
 }
 
 
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 .container-fluid {
     padding: 0;
 }
+
 .no-padding {
     padding: 0 !important;
 }
 
 /* menu y cabezote*/
 nav.menu {
-    background-color: var(--dark-blue) !important;
+    background-color: var(--orange) !important;
     display: flex;
     width: 100%;
     color: white !important;
@@ -82,6 +50,18 @@ nav.menu {
     font-weight: 600;
     z-index: 4;
     padding: 0;
+}
+
+.logo-left {
+    padding-left: 25px;
+}
+
+.nav-item {
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
 }
 
 header ul {
@@ -104,7 +84,7 @@ header li a {
 }
 
 header a:hover{
-    background-color: var(--light-blue);
+    background-color: var(--light-brown);
     color: white;
     text-decoration: none;
 }
@@ -116,7 +96,7 @@ header a:hover{
 }
 
 .dropdown-menu {
-    background-color: var(--dark-blue) !important;
+    background-color: var(--orange) !important;
 
 }
 
@@ -125,16 +105,16 @@ header a:hover{
 }
 
 .dropdown-item a:hover {
-    color: var(--light-blue) !important;
+    color: var(--light-brown) !important;
 
 }
 
 .dropdown-item:hover {
-    background-color: var(--light-blue) !important;
+    background-color: var(--light-brown) !important;
 }
 
-/* top image and texts*/
-.top-home {
+/* top imagen y textos*/
+.top-inicio {
     margin-right: 0;
     margin-left: 0;    
     text-align: center;
@@ -144,7 +124,7 @@ header a:hover{
     position: relative;
 }
 
-.desc-top-home {
+.desc-top-inicio {
     position: absolute;
     left: 50%;
     top: 40%;
@@ -156,48 +136,44 @@ header a:hover{
     height: 100%;
 }
 
-.welcome {
-    padding-top: 170px;
+.top-container {
+    padding-top: 25px;
     text-shadow: 1px 1px 2px var(--grey);
+    font-size: 45px;
+    font-family: 'Bree Serif', serif !important;
 }
 
-.welcome-text {
+.top-text {
     text-align: center;
-    color: var(--dark-blue);
+    color: var(--orange);
     text-decoration: none;
     font-size: 21px;
-    background-color: white;
-}
-
-  
-.welcome-description {
-    color: var(--dark-blue);
-    font-size: 20px;
+    padding-top: 15px;
 }
 
 
-/* about (resumen) me info*/
-.about-me {
+/* about the business*/
+.about-container {
     margin-top: 0;
-    background-color: lightgrey;
+    background-color: #F2E4C1;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.about-me-info {
+.about-info {
     padding-right: 40px;
     padding-left: 40px;
 }
 
-.about-me-text {
+.about-texto {
     padding-right: 80px;
 }
 
-.about-me-pic {
+.foto-about-cont {
     text-align: right;
 }
 
-.profile-pic {
+.foto-about {
     width: 210px;
     height: 210px;
 }
@@ -213,15 +189,15 @@ p {
     font-size: 16px;
 }
 
-/* specific work*/
-
-.selection-work {
-    margin-top: 40px;
+/* cards restaurantes*/
+.selection-restaurantes {
+    margin-top: 60px;
+    font-size: 23px;
 }
 
 .btn-primary {
     border-radius: 5px;
-    background-color: var(--light-blue) !important;
+    background-color: var(--orange) !important;
 }
 
 h3 {
@@ -231,27 +207,26 @@ h3 {
 }
 
 /* contact info*/
-.contact-me {
-    margin-top: 25px;
-    background-color: var(--dark-blue);
-    padding-top: 45px;
+.contacto {
+    background-color: var(--grey);
+    padding-top: 25px;
     color: white;
     margin-bottom: 0;
     margin-right: 0 !important;
     padding-bottom: 40px; 
 }
 
-.contact-me-text {
+.contacto-texto {
     color: white;
 
 }
 
 button.btn-primary {
-    background-color: var(--light-blue)!important;
+    background-color: var(--orange)!important;
 }
 
 button.btn-primary:hover {
-    background-color: var(--dark-blue)!important;
+    background-color: #BD4D00 !important;
 }
 
 i.fa-github, .fa-linkedin, .fa-facebook-square {
@@ -268,32 +243,20 @@ footer {
     margin-bottom: 0;
 }
 
-/* aquí empiezan las clases de la pag de web dev projects */
-
-.top-section-web {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
+/* social media contenido*/
+.social-media {
     color: white;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative; 
+    text-align: center;
 }
 
-.desc-top-section-web {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%) translateY(-50%);
+i {
+    color: white;
+    padding-left: 15px;
+    
 }
 
-.welcome-web-dev {
-    padding-top: 150px;
-    text-shadow: 1px 1px 2px var(--grey);
-}
-
-.web-projects {
-    margin-top: 50px;
+/* clases contenedor de las cards */
+.cont-restaurantes {
     margin-bottom: 30px;
     padding-top: 30px;
     display: inline-flex;
@@ -302,19 +265,21 @@ footer {
     margin-left: auto !important;;
 }
 
-.project-pic {
+.logo-restaurante {
     width: 265px;
     height: 150px;
 }
 
-.project-container {
+.cont-restaurante {
     width: 280px;
     padding: 20px;
 }
 
+/*clases del las cards */
 .card {
     width: 300px;
     padding: 20px;
+    margin-top:25px
 }
 
 .card-title {
@@ -327,127 +292,15 @@ footer {
     font-size: 14px;
 }
 
-/*empiezan las clases de la pagina de profile*/
+/*clases del map */
+#map {
+    max-height: 500px;
+    height: 500px;
+}
 
-.top-section-profile {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
+.map-container {
     margin-top: 55px;
+    max-height: 300px;
+    height: 300px;
 }
-
-.profile-desc {
-    font-size: 20px;
-    color: var(--dark-blue);
-}
-
-.subtitle-text {
-    margin-top: px;
-}
-
-.container-profile {
-    margin-top: 50px;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
-    padding-bottom: 35px;
-    max-width: 100%;
-}
-
-.top-profile {
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
-}
-
-.cont-text-top-profile {
-    margin-bottom: 35px;
-}
-
-.profile-subt {
-    padding-top: 70px;
-}
-
-.profile2 {
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.blockquote-text {
-    font-style: oblique;
-    font-size: 28px;
-    margin-top: 0px;
-}
-
-.blockquote-bg {
-    /*border: solid 1px darkgrey;*/
-    width: 500px;
-    text-align: center;
-    margin: auto;
-    margin-top: 25px;
-}
-
-.important-tools {
-    margin: 50px auto;
-    text-align: center;
-}
-
-.list-tools {
-    margin-top: 50px;
-    border: dotted 1px grey;
-    width: 750px;
-    margin-bottom: 50px;
-}
-
-.list-items-lblue {
-    color: var(--light-blue);
-}
-
-.list-items-dblue {
-    color: var(--dark-blue);
-}
-
-/* aquí empiezan las clases de la pag de content writing */
-.top-sec-writing {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative; 
-}
-
-.desc-top-section-writing {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.welcome-writing {
-    padding-top: 150px;
-    text-shadow: 1px 1px 2px var(--grey);
-}
-
-/*aquí empiezanEstilos de marketing*/
-.top-section-mkt {
-    margin-right: 0;
-    margin-left: 0;    
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative; 
-}
-
-.welcome-mkt {
-    padding-top: 150px;
-    text-shadow: 1px 1px 2px var(--grey);
-}
-
 

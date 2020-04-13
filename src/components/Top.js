@@ -5,11 +5,11 @@ function Top() {
     return (
 
         <div className="container-fluid">
-            <div className="row top-home">
-                <img src="/index-header-bg.png" alt="" className="img-full w-100 h-100" />
-                <div className="desc-top-home">
-                    <h1 className="welcome"><b>Hello, I’m Valentina!</b></h1>
-                    <div className="welcome-text container rounded center shadow-sm"><p class="welcome-description">Graphic Communicator &amp; Front-End Web Developer Student</p></div>
+            <div className="row top-inicio">
+                <img src="/top-index.png" alt="" className="img-full w-100 h-100" />
+                <div className="desc-top-inicio">
+                <h1 className="top-container"><b>Come mejor<br/>por un precio menor</b></h1>
+                <div className="top-text container rounded center shadow-sm"><img src="/packyfood-logo-white.png" alt=""/></div> 
                 </div>
             </div>
         </div>
@@ -17,3 +17,4 @@ function Top() {
 }
 
 export default Top;
+
