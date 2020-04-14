@@ -81,3 +81,23 @@ export const restaurantProduct = {
         surpriseDescription: 'Comida con inspiración oriental',
     }
 }
+
+export const restaurantsList= [
+    {
+        id: 'cosechas',        
+        kindFood: 'Saludable',            
+    },
+    {
+        id: 'mundoverde', 
+        kindFood: 'Saludable',            
+    },
+    {
+        id: 'srwok',
+        kindFood: 'Oriental',            
+    },
+    {
+        id: 'ilforno',
+        kindFood: 'italiana',            
+    },  
+   
+]
