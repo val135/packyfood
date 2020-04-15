@@ -1,18 +1,20 @@
 import React from 'react';
 import { restaurantsList } from '../restaurantsData';
+import './FilterRestaurant.css'
 
-const FilterRestaurant = () => {
+const FilterRestaurant = (props) => {
   return (
-    <div className="form-group">
-      <label for="exampleFormControlSelect1" ><h1>Opciones de comida</h1></label>
-      <select className="form-control" id="exampleFormControlSelect1">
-        <option>Saludable</option>
-        <option>Rápida</option>
-        <option>Italiana</option>
-        <option>Oriental</option>
+    <div className="filter-wrapper">
+      <label name="resturant-filter">
+        <h2 className="font-weight-bold">Opciones de comida</h2>
+      </label>
+      <select onChange={props.onChosenRestaurantType} name="resturant-filter" className="filter-select" >
+        {restaurantsList.map(restaurant => {
+          return <option key={restaurant.id} value={restaurant.value}>{restaurant.kindFood}</option>;
+        })}
       </select>
     </div>
-  );
+  )
 };
 
 export default FilterRestaurant;

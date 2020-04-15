@@ -4,42 +4,48 @@ export const restaurantsData = [
         imgLogo: '1afrisby.png?alt=media&token=3140b097-edde-4a6a-ac5c-22036d7f4412',
         nameRestaurant: 'Frisby',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Frisby Snack`         
+        con productos como Frisby Snack`,
+        category: 'rapida'        
     },
     {
         id: 'mundoverde',
         imgLogo: '2amundo-verde.png?alt=media&token=489776f2-8c49-4cea-be0e-42e72870de9f',
         nameRestaurant: 'Mundo Verde',
         text:  `Podrás adquirir un paquete sorpresa
-        con productos como Mundo Verde`           
+        con productos como Mundo Verde`,
+        category: 'saludable'         
     },
     {
         id: 'ilforno',
         imgLogo: '3cilforno.png?alt=media&token=56c6a82e-fbef-46b4-a7fe-06d9217ff417',
         nameRestaurant: 'Il forno',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Il forno`             
+        con productos como Il forno`,
+        category: 'italiana'             
     },
     {
         id: 'losportenos',
         imgLogo: '4dportenos.png?alt=media&token=64114ade-8761-4383-8d66-f62aef024736',
         nameRestaurant: 'Los Porteños',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Los Porteños`           
+        con productos como Los Porteños`,
+        category: 'saludable'           
     },
     {
         id: 'cosechas',
         imgLogo: '5eunnamed.png?alt=media&token=93f7dc48-872b-4ef7-b6d3-d2fcdf831d64',
         nameRestaurant: 'Cosechas',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Cosechas`             
+        con productos como Cosechas`,
+        category: 'saludable'             
     },
     {
         id: 'srwok',
         imgLogo: '6wok.png?alt=media&token=f1d83ce2-2c20-423d-9f21-fae955efab7a',
         nameRestaurant: 'Sr. Wok',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Sr. Wok`             
+        con productos como Sr. Wok`,
+        category: 'oriental'             
     }
 ];
 
@@ -84,20 +90,28 @@ export const restaurantProduct = {
 
 export const restaurantsList= [
     {
-        id: 'cosechas',        
-        kindFood: 'Saludable',            
+        id: '15254',        
+        kindFood: 'Todos',
+        value: '',            
     },
     {
-        id: 'mundoverde', 
-        kindFood: 'Saludable',            
+        id: '1254',        
+        kindFood: 'Saludable',
+        value: 'saludable',            
     },
     {
-        id: 'srwok',
-        kindFood: 'Oriental',            
+        id: '2455ok',
+        kindFood: 'Oriental',
+        value: 'oriental',            
     },
     {
-        id: 'ilforno',
-        kindFood: 'italiana',            
-    },  
-   
-]
+        id: '5458',
+        kindFood: 'Italiana',
+        value: 'italiana',              
+    }, 
+    {
+        id: 'jgs54',
+        kindFood: 'Rápida',
+        value: 'rapida',              
+    }, 
+];
