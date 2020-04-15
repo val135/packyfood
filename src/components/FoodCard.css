@@ -24,7 +24,7 @@
 }
 
 .product-title {
-    font-size: 2rem;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -36,4 +36,97 @@
     font-size: 1.2rem;
     font-weight: 700;
     color: #D8610F;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 576px){
+
+    
+    .foodcard-wrapper {
+        margin: 0px;
+        margin-top: 30px;
+        padding: 15px 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-product-container {
+        width: 220px;
+        height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    .img-product-container img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .product-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+
+    .product-text {
+        font-size: 14px;
+    }
+}
+
+/* pantallas tablet*/
+
+@media screen and (max-width: 769px){
+    
+    .foodcard-wrapper {
+        margin: 0px;
+        margin-top: 30px;
+        padding: 15px 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-product-container {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .img-product-container img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .product-texts {
+        font-size: 16px;
+        padding-left: 35px;
+        padding-right: 50px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+    .product-price{
+        margin-bottom: 0px;
+    }
+
+    .restaurants-big {
+        text-align: center;
+    }
+
+    .medium-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product-text {
+        font-size: 18px;
+    }
 }

@@ -1,0 +1,159 @@
+@media screen and (max-width: 576px){
+
+    
+    .top-inicio {
+        margin-top: 60px;
+        max-height: 50%;
+    }
+
+    .top-container {
+        font-size: 18px;
+        padding-top: 30%;
+    }
+
+    .img-full {
+        width: 100px;
+    }
+
+    .foto-about {
+        text-align: center;
+    }
+
+
+    /*about me resume*/
+    .about-me {
+        padding-top: 50px;
+    }
+
+    .about-me-pic {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 25px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me-text {
+        padding-right: 0px;
+    }
+
+    /*resumen what I do with 3 icons*/
+    .selection-work {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .selection-work-text {
+        font-size: 17px;
+    }
+
+    .work-icons {
+        margin-bottom: 0;
+    }
+
+    .contact-group {
+        margin-top: 5px;
+        padding-bottom: 35px;
+    }
+
+    .icons-group {
+        margin-bottom: 30px;
+    }
+
+    .work-cont {
+        width: 60%;
+    }
+
+    /*contact info home*/
+    .contact-me {
+        margin-top: 0;
+    }
+
+    .my-job {
+        font-size:21px;
+    }
+
+    .my-job-cont {
+        margin-top: 0;
+    }
+
+    i.fa-github, .fa-linkedin, .fa-facebook-square {
+        font-size: 20px;
+    }
+
+    /*estilos de la pagina web development*/
+    .top-section-web {
+        font-weight: 400;
+        margin-top: 210px;
+    }
+
+    .blockquote-bg {
+        display: none;
+    }
+
+    .welcome-web-dev {
+        padding-top: 45px;
+        font-size: 24px;
+    }
+
+    .web-projects {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    
+    /*media para el footer*/
+    .footer-text {
+        font-size: 12px;
+    }
+
+    /*media queries de la pagina de profile*/
+    .top-section-profile {
+        margin-top: 210px;
+    }
+
+    .profile-desc {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .profile2 {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    .important-tools {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .text-before-work {
+        font-size: 21px;
+    }
+
+    /*pagina de marketing*/
+    .welcome-mkt {
+        padding-top: 45px;
+        font-size: 24px;
+    }
+
+    /*pagina de content writing*/
+    .top-sec-writing {
+        margin-top: 210px;
+    }
+
+    .welcome-writing {
+        padding-top: 45px;
+        font-size: 21px;
+    }
+
+    /*estilos de la pagina marketing*/
+    .top-section-mkt {
+        font-weight: 400;
+        margin-top: 210px;
+    }
+
+
+}

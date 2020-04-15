@@ -25,6 +25,9 @@ html, body {
     padding: 0;
     font-family: 'Titillium Web', sans-serif !important;
     height: 100%;
+    max-width: 100%;
+    
+    
 }
 
 
@@ -313,4 +316,62 @@ i {
 
 .steps {
     margin: 20px 30px;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 576px){
+
+    
+    .top-inicio {
+        margin-top: 60px;
+        max-height: 50%;
+    }
+
+    .top-container {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .img-full {
+        width: 80px;
+    }
+
+    .top-text {
+        padding-top: 0px;
+    }
+
+    .logo-mini {
+        width: 80px;
+    }
+
+    .foto-about-cont {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .foto-about {
+        width: 180px;
+        height: 180px;
+        
+    }
+
+    .about-container {
+        padding-top: 40px;
+    }
+
+    .about-texto {
+        padding-right: 10px;
+    }
+
+    .selection-restaurantes {
+        font-size: 18px;
+        padding: 5px 35px;
+    }
+
+    .cont-restaurantes{
+        padding-top: 10px;
+        padding-right: 0px;
+    }
 }

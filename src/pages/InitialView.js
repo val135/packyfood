@@ -3,6 +3,7 @@ import About from '../components/About';
 import Cards from '../components/Cards';
 import FilterRestaurant from '../components/FilterRestaurant';
 import MapContainer  from '../components/MapContainer';
+import Description from '../components/DescriptionPacky'
 
 class InitialView extends Component {
 
@@ -21,6 +22,7 @@ class InitialView extends Component {
         return (
             <main>  
                 <About />
+                <Description />
                 <FilterRestaurant onChosenRestaurantType={this.chosenRestaurantType} />
                 <Cards filter={this.state.chosenType} />
                 <MapContainer />
