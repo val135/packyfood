@@ -52,6 +52,15 @@ export const restaurantsData = [
         con productos como Sr. Wok`,
         category: 'oriental',
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                                
+    },
+    {
+        id: 'mezzaluna',
+        imgLogo: 'mezzaluna.png?alt=media&token=0f485f0b-c892-4146-a68b-9e196d09ac62',
+        nameRestaurant: 'Mezzaluna',
+        text: `Podrás adquirir un paquete sorpresa
+        con productos saludables`,
+        category: 'saludable',
+        urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                                
     }
 ];
 
@@ -91,6 +100,12 @@ export const restaurantProduct = {
         price: 6000,
         imgFood: 'srwork-packy.gif?alt=media&token=6be4f4a6-bd0e-46de-885e-a6fe439e61ce',
         surpriseDescription: 'Comida con inspiración oriental. Podrás elegir entre variedades de arroz, pastas, carnes y pollos. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',
+    },
+    mezzaluna: {
+        nameRestaurant: 'Mezzaluna',
+        price: 8000,
+        imgFood: 'mezzaluna-packy.gif?alt=media&token=d2bbb794-3588-437b-ad1d-d0db67b867b1',
+        surpriseDescription: 'Comida saludable que va mucho más allá de un plato de ensalada. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',
     }
 }
 

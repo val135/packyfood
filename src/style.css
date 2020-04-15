@@ -305,3 +305,12 @@ i {
     height: 300px;
 }
 
+/* Clases de description */
+
+.description-packy {
+    margin-top: 50px;
+}
+
+.steps {
+    margin: 20px 30px;
+}

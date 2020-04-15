@@ -5,8 +5,8 @@ import './FilterRestaurant.css'
 const FilterRestaurant = (props) => {
   return (
     <div className="filter-wrapper">
-      <label name="resturant-filter">
-        <h2 className="font-weight-bold">Opciones de comida</h2>
+      <label name="restaurant-filter">
+        <p className="intro-packy">Filtra los restaurantes por categorías</p>
       </label>
       <select onChange={props.onChosenRestaurantType} name="resturant-filter" className="filter-select" >
         {restaurantsList.map(restaurant => {
