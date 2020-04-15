@@ -3,7 +3,7 @@ import React from 'react';
 
 
 
-function DescriptionPacky () {
+const DescriptionPacky = () => {
     return (
         
         <div className="container-fluid">
@@ -23,15 +23,15 @@ function DescriptionPacky () {
 
             {/* segundo row con tres columnas */}
             <div className="row text-center w-100">
-                <div className="col-xs-12 col-sm-12 col-md-4">
+                <div className="col-xs-12 col-sm-12 col-md-4 steps">
                     <img className="step justify-content-center" src="./packy-step1.png" alt="PackyFood"/>
                 </div>
 
-                <div className="col-xs-12 col-sm-12 col-md-4">
+                <div className="col-xs-12 col-sm-12 col-md-4 steps">
                     <img className="step justify-content-center" src="./packy-step1.png" alt="PackyFood"/>
                 </div>
 
-                <div className="col-xs-12 col-sm-12 col-md-4">
+                <div className="col-xs-12 col-sm-12 col-md-4 steps">
                     <img className="step justify-content-center" src="./packy-step1.png" alt="PackyFood"/>
                 </div>
 

@@ -18,6 +18,15 @@ export const restaurantsData = [
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                
     },
     {
+        id: 'lecarne',
+        imgLogo: 'le-carne.png?alt=media&token=5f52a032-4e99-494b-b9c4-4cfe4c7bceb1',
+        nameRestaurant: 'Le Carné',
+        text: `Podrás adquirir un paquete sorpresa
+        con productos y cárnicos saludables`,
+        category: 'saludable',
+        urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'       
+    },
+    {
         id: 'ilforno',
         imgLogo: 'ilforno.png?alt=media&token=fc07eaa4-3427-48dc-993b-86cda4014cbe',
         nameRestaurant: 'Il forno',
@@ -106,7 +115,13 @@ export const restaurantProduct = {
         price: 8000,
         imgFood: 'mezzaluna-packy.gif?alt=media&token=d2bbb794-3588-437b-ad1d-d0db67b867b1',
         surpriseDescription: 'Comida saludable que va mucho más allá de un plato de ensalada. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',
-    }
+    },
+    lecarne: {
+        nameRestaurant: 'Le Carné',
+        price: 8000,
+        imgFood: 'le-carne-packy.gif?alt=media&token=9d9c9ed6-db64-4041-8ca3-a3ebf229007a',
+        surpriseDescription: 'Comida saludable basada en cárnicos bajos en grasa y sodio. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',
+    },
 }
 
 export const restaurantsList= [
