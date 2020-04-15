@@ -375,3 +375,19 @@ i {
         padding-right: 0px;
     }
 }
+
+/* tamaño tablet */
+
+@media screen and (max-width: 768px){
+
+    .top-container {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    .desc-top-inicio {
+        margin-top: 30px;
+    }
+
+   
+}

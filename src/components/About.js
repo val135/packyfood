@@ -18,7 +18,7 @@ function About(props) {
                 ¡Come mejor por un precio menor!
                 </p>
                     <Link to='/description'>
-                    <button className="button btn btn-primary read-more mt-2">Saber más</button>
+                    <button onClick={props.onClickDescription} className="button btn btn-primary read-more mt-2">Saber más</button>
                     </Link>
                     
                 </div>
