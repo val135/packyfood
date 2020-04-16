@@ -142,7 +142,7 @@ header a:hover{
 .top-container {
     padding-top: 25px;
     text-shadow: 1px 1px 2px var(--grey);
-    font-size: 45px;
+    font-size: 28px;
     font-family: 'Bree Serif', serif !important;
 }
 
@@ -298,14 +298,14 @@ i {
 
 /*clases del map */
 #map {
-    max-height: 500px;
-    height: 500px;
+    max-height: '300px';
+    height: 300px;
 }
 
 .map-container {
     margin-top: 55px;
     max-height: 300px;
-    height: 300px;
+    height: 300px !important;
 }
 
 /* Clases de description */
@@ -319,6 +319,35 @@ i {
 }
 
 
+/* descripcion Packy Food */
+
+.cont-description-packy {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.cont-steps {
+    display: flex;
+    margin: 50px auto;
+    
+    
+}
+
+.steps {
+    background-color: white;
+    margin: 10px 0px;
+    width: 200px;
+}
+
+.about-btn {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+
 /* media queries */
 
 @media screen and (max-width: 576px){
@@ -326,12 +355,15 @@ i {
     
     .top-inicio {
         margin-top: 60px;
-        max-height: 50%;
+       
+    }
+
+    .desc-top-inicio {
+        margin-top: 40px;
     }
 
     .top-container {
-        font-size: 18px;
-        padding-top: 30px;
+      font-size: 28px !important;
     }
 
     .img-full {
