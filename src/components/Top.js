@@ -9,7 +9,7 @@ function Top() {
                 <img src="/top-index.png" alt="" className="img-full w-100 h-100" />
                 <div className="desc-top-inicio">
                 <h1 className="top-container"><b>Come mejor<br/>por un precio menor</b></h1>
-                <div className="top-text container rounded center shadow-sm"><img src="/packyfood-logo-white.png" alt=""/></div> 
+                <div className="top-text container rounded center shadow-sm"><img src="/packyfood-logo-white.png" alt="" className="logo-mini"/></div> 
                 </div>
             </div>
         </div>

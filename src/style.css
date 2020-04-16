@@ -25,6 +25,9 @@ html, body {
     padding: 0;
     font-family: 'Titillium Web', sans-serif !important;
     height: 100%;
+    max-width: 100%;
+    
+    
 }
 
 
@@ -139,7 +142,7 @@ header a:hover{
 .top-container {
     padding-top: 25px;
     text-shadow: 1px 1px 2px var(--grey);
-    font-size: 45px;
+    font-size: 28px;
     font-family: 'Bree Serif', serif !important;
 }
 
@@ -268,6 +271,7 @@ i {
 .logo-restaurante {
     width: 265px;
     height: 150px;
+    border: 1px solid lightgrey;
 }
 
 .cont-restaurante {
@@ -294,13 +298,128 @@ i {
 
 /*clases del map */
 #map {
-    max-height: 500px;
-    height: 500px;
+    max-height: '300px';
+    height: 300px;
 }
 
 .map-container {
     margin-top: 55px;
     max-height: 300px;
-    height: 300px;
+    height: 300px !important;
 }
 
+/* Clases de description */
+
+.description-packy {
+    margin-top: 50px;
+}
+
+.steps {
+    margin: 20px 30px;
+}
+
+
+/* descripcion Packy Food */
+
+.cont-description-packy {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.cont-steps {
+    display: flex;
+    margin: 50px auto;
+    
+    
+}
+
+.steps {
+    background-color: white;
+    margin: 10px 0px;
+    width: 200px;
+}
+
+.about-btn {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 576px){
+
+    
+    .top-inicio {
+        margin-top: 60px;
+       
+    }
+
+    .desc-top-inicio {
+        margin-top: 40px;
+    }
+
+    .top-container {
+      font-size: 28px !important;
+    }
+
+    .img-full {
+        width: 80px;
+    }
+
+    .top-text {
+        padding-top: 0px;
+    }
+
+    .logo-mini {
+        width: 80px;
+    }
+
+    .foto-about-cont {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .foto-about {
+        width: 180px;
+        height: 180px;
+        
+    }
+
+    .about-container {
+        padding-top: 40px;
+    }
+
+    .about-texto {
+        padding-right: 10px;
+    }
+
+    .selection-restaurantes {
+        font-size: 18px;
+        padding: 5px 35px;
+    }
+
+    .cont-restaurantes{
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+}
+
+/* tamaño tablet */
+
+@media screen and (max-width: 768px){
+
+    .top-container {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    .desc-top-inicio {
+        margin-top: 30px;
+    }
+
+   
+}
