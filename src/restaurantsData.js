@@ -70,6 +70,15 @@ export const restaurantsData = [
         con productos saludables`,
         category: 'saludable',
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                                
+    },
+    {
+        id: 'dominos',
+        imgLogo: 'dominos.png?alt=media&token=60af504b-db6b-4ac5-a51c-d6b846cd9f38',
+        nameRestaurant: 'Mezzaluna',
+        text: `Podrás adquirir un paquete sorpresa
+        con porciones variadas de pizza`,
+        category: 'rapida',
+        urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                                
     }
 ];
 
@@ -121,6 +130,12 @@ export const restaurantProduct = {
         price: 8000,
         imgFood: 'le-carne-packy.gif?alt=media&token=9d9c9ed6-db64-4041-8ca3-a3ebf229007a',
         surpriseDescription: 'Comida saludable basada en cárnicos bajos en grasa y sodio. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',
+    },
+    dominos: {
+        nameRestaurant: "Domino\'s Pizza",
+        price: 8000,
+        imgFood: 'dominos-packy.gif?alt=media&token=8d2b84bd-3438-4f91-962f-812ab7d223fa',
+        surpriseDescription: 'Pizza de los sabores más tradicionales en el mundo. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',
     },
 }
 
