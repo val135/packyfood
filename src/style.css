@@ -142,7 +142,7 @@ header a:hover{
 .top-container {
     padding-top: 25px;
     text-shadow: 1px 1px 2px var(--grey);
-    font-size: 28px;
+    font-size: 42px;
     font-family: 'Bree Serif', serif !important;
 }
 
@@ -150,7 +150,7 @@ header a:hover{
     text-align: center;
     color: var(--orange);
     text-decoration: none;
-    font-size: 21px;
+    font-size: 40px;
     padding-top: 15px;
 }
 
@@ -322,7 +322,6 @@ i {
 /* descripcion Packy Food */
 
 .cont-description-packy {
-    width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -344,82 +343,4 @@ i {
 .about-btn {
     text-align: center;
     margin-bottom: 70px;
-}
-
-
-
-/* media queries */
-
-@media screen and (max-width: 576px){
-
-    
-    .top-inicio {
-        margin-top: 60px;
-       
-    }
-
-    .desc-top-inicio {
-        margin-top: 40px;
-    }
-
-    .top-container {
-      font-size: 28px !important;
-    }
-
-    .img-full {
-        width: 80px;
-    }
-
-    .top-text {
-        padding-top: 0px;
-    }
-
-    .logo-mini {
-        width: 80px;
-    }
-
-    .foto-about-cont {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .foto-about {
-        width: 180px;
-        height: 180px;
-        
-    }
-
-    .about-container {
-        padding-top: 40px;
-    }
-
-    .about-texto {
-        padding-right: 10px;
-    }
-
-    .selection-restaurantes {
-        font-size: 18px;
-        padding: 5px 35px;
-    }
-
-    .cont-restaurantes{
-        padding-top: 10px;
-        padding-right: 0px;
-    }
-}
-
-/* tamaño tablet */
-
-@media screen and (max-width: 768px){
-
-    .top-container {
-        font-size: 28px;
-        padding-top: 30px;
-    }
-
-    .desc-top-inicio {
-        margin-top: 30px;
-    }
-
-   
 }
