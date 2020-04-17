@@ -37,18 +37,7 @@ const DescriptionPacky = () => {
             <div className="container about-btn center-text">
                 <button className="button btn btn-primary read-more mt-2">Ver Packies disponibles</button>
             </div>
-
-
-        </div>
-
-  
-
-
-
-
-                
-
-        
+        </div>          
     )
 }
 
