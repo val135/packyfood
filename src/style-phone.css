@@ -1,0 +1,60 @@
+/* media queries */
+
+@media screen and (max-width: 576px){
+
+    
+    .top-inicio {
+        margin-top: 60px;
+       
+    }
+
+    .desc-top-inicio {
+        margin-top: 40px;
+    }
+
+    .top-container {
+      font-size: 28px;
+    }
+
+    .img-full {
+        width: 80px;
+    }
+
+    .top-text {
+        display: none;
+    }
+
+    .logo-mini {
+        width: 80px;
+    }
+
+    .foto-about-cont {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .foto-about {
+        width: 180px;
+        height: 180px;
+        
+    }
+
+    .about-container {
+        padding-top: 40px;
+    }
+
+    .about-texto {
+        padding-right: 10px;
+    }
+
+    .selection-restaurantes {
+        font-size: 18px;
+        padding: 5px 35px;
+    }
+
+    .cont-restaurantes{
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+}
+

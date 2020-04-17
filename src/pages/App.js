@@ -5,6 +5,7 @@ import Top from '../components/Top';
 import InitialView from '../pages/InitialView';
 import Navbar from '../components/Navbar';
 import BuyView from '../pages/BuyView';
+import Description from '../pages/Description';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </header>
       <Switch>
         <Route exact path='/' component={InitialView} />
+        <Route exact path='/description' component={Description} />
         <Route exact path='/buy-view/:id' component={BuyView} />
       </Switch>      
       <footer>
