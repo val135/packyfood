@@ -1,8 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
+<<<<<<< HEAD
 
 
 const DescriptionPacky = () => {
+=======
+const DescriptionPacky = (props) => {
+>>>>>>> 015afe3c99ee84c0e16ebe756ff486f722a9dece
     return (
 
         <div className="container-fluid">
@@ -32,6 +37,7 @@ const DescriptionPacky = () => {
                     <img className="step justify-content-center" src="./packy-step3.png" alt="PackyFood" />
                 </div>
             </div>
+<<<<<<< HEAD
 
             <div className="container about-btn center-text">
                 <button className="button btn btn-primary read-more mt-2" href="https://packyfood.netlify.app/">Ver Packies disponibles</button>
@@ -45,6 +51,14 @@ const DescriptionPacky = () => {
          
 
         
+=======
+            <div className="container about-btn center-text">            
+                <Link to='/'>
+                        <button onClick={props.onClickDescription} className="button btn btn-primary read-more mt-2">Ver Packies disponibles </button>
+                </Link>
+            </div>
+        </div>          
+>>>>>>> 015afe3c99ee84c0e16ebe756ff486f722a9dece
     )
 }
 
