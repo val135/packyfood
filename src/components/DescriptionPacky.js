@@ -2,7 +2,6 @@ import React from 'react';
 
 
 
-
 const DescriptionPacky = () => {
     return (
 
@@ -35,18 +34,15 @@ const DescriptionPacky = () => {
             </div>
 
             <div className="container about-btn center-text">
-                <button className="button btn btn-primary read-more mt-2">Ver Packies disponibles</button>
+                <button className="button btn btn-primary read-more mt-2" href="https://packyfood.netlify.app/">Ver Packies disponibles</button>
             </div>
 
-
+            {/*<Link to='/initial-view'>
+                    <button onClick={props.onClickDescription} className="button btn btn-primary read-more mt-2">Ver Packies </button>
+            </Link>*/}
         </div>
 
-  
-
-
-
-
-                
+         
 
         
     )

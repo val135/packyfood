@@ -13,7 +13,7 @@ export const restaurantsData = [
         imgLogo: 'mundo-verde.png?alt=media&token=298df42c-3aec-4283-b879-72abfa5da4d9',
         nameRestaurant: 'Mundo Verde',
         text:  `Podrás adquirir un paquete sorpresa
-        con productos como ensalada Cesar`,
+        con productos como ensalada de pollo`,
         category: 'saludable',
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                
     },
@@ -40,7 +40,7 @@ export const restaurantsData = [
         imgLogo: 'portenos.png?alt=media&token=332ce9e7-5888-4ae5-8274-7c6f6cec7ba5',
         nameRestaurant: 'Los Porteños',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Los Porteños`,
+        con productos como medialunas`,
         category: 'saludable',
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                               
     },
@@ -49,7 +49,7 @@ export const restaurantsData = [
         imgLogo: 'cosechas.png?alt=media&token=e4bafa7c-cc27-442b-b6d3-d6d93a6ba5dc',
         nameRestaurant: 'Cosechas',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Cosechas`,
+        con productos y bebidas de fruta`,
         category: 'saludable',
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                                
     },
@@ -58,7 +58,7 @@ export const restaurantsData = [
         imgLogo: 'wok.png?alt=media&token=597fd76e-0a26-4760-8535-7d0b8d44d92d',
         nameRestaurant: 'Sr. Wok',
         text: `Podrás adquirir un paquete sorpresa
-        con productos como Sr. Wok`,
+        con productos como carne de res y arroz con verduras`,
         category: 'oriental',
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                                
     },
@@ -67,14 +67,14 @@ export const restaurantsData = [
         imgLogo: 'mezzaluna.png?alt=media&token=0f485f0b-c892-4146-a68b-9e196d09ac62',
         nameRestaurant: 'Mezzaluna',
         text: `Podrás adquirir un paquete sorpresa
-        con productos saludables`,
+        con productos saludables como ensalada tradicional`,
         category: 'saludable',
         urlWhatsapp: 'https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy'                                
     },
     {
         id: 'dominos',
         imgLogo: 'dominos.png?alt=media&token=60af504b-db6b-4ac5-a51c-d6b846cd9f38',
-        nameRestaurant: 'Mezzaluna',
+        nameRestaurant: 'Dominos Pizza',
         text: `Podrás adquirir un paquete sorpresa
         con porciones variadas de pizza`,
         category: 'rapida',
