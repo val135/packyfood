@@ -1,8 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 
 
-const DescriptionPacky = () => {
+const DescriptionPacky = (props) => {
     return (
 
         <div className="container-fluid">
@@ -33,13 +34,13 @@ const DescriptionPacky = () => {
                 </div>
             </div>
 
-            <div className="container about-btn center-text">
-                <button className="button btn btn-primary read-more mt-2" href="https://packyfood.netlify.app/">Ver Packies disponibles</button>
+            <div className="container about-btn center-text">            
+                <Link to='/'>
+                        <button onClick={props.onClickDescription} className="button btn btn-primary read-more mt-2">Ver Packies disponibles </button>
+                </Link>
             </div>
 
-            {/*<Link to='/initial-view'>
-                    <button onClick={props.onClickDescription} className="button btn btn-primary read-more mt-2">Ver Packies </button>
-            </Link>*/}
+            
         </div>
 
          
