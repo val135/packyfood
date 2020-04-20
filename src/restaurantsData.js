@@ -132,7 +132,7 @@ export const restaurantProduct = {
         surpriseDescription: 'Comida saludable basada en cárnicos bajos en grasa y sodio. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',
     },
     dominos: {
-        nameRestaurant: "Domino's Pizza",
+        nameRestaurant: "Domino\'s Pizza",
         price: '9000 cop',
         imgFood: 'dominos-packy.gif?alt=media&token=8d2b84bd-3438-4f91-962f-812ab7d223fa',
         surpriseDescription: 'Pizza de los sabores más tradicionales en el mundo. Haz clic en el enlace y contacta con el restaurante directamente para obtener tu Packy.',

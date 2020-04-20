@@ -22,8 +22,9 @@ const FoodCard = (props) => {
                         <p className="product-text" >{props.surpriseDescription}</p>
                         <p className="product-price">Precio: {props.price}</p>                      
                         
-                        <a href="https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy" target="_blank" rel="noopener noreferrer"  className="button btn btn-primary read-more mt-2">Adquirir usando Whatsapp</a>
-                                           
+                        <a href="https://api.whatsapp.com/send?phone=573002640177&text=Me%20gustaria%20obtener%20su%20Packy%20de%20hoy" target="_blank"className="button btn btn-primary read-more mt-2">Adquirir usando Whatsapp</a>
+                        
+                    
                 </div>
             </div>
         </div>
