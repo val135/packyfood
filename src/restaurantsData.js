@@ -74,7 +74,7 @@ export const restaurantsData = [
     {
         id: 'dominos',
         imgLogo: 'dominos.png?alt=media&token=60af504b-db6b-4ac5-a51c-d6b846cd9f38',
-        nameRestaurant: 'Mezzaluna',
+        nameRestaurant: `Domino's Pizza`,
         text: `Podrás adquirir un paquete sorpresa
         con porciones variadas de pizza`,
         category: 'rapida',
