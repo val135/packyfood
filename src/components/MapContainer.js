@@ -31,6 +31,14 @@ export class MapContainer extends Component {
         position ={{ lat: 6.334997, lng: -75.558266}} />
 
         <Marker
+        name = {'Dominos'}
+        position ={{ lat: 6.26881, lng:  -75.576433}} />
+
+        <Marker
+        name = {'Cosechas'}
+        position ={{ lat: 6.255955, lng:   -75.617621}} />
+
+        <Marker
         name = {'Mundo Verde'}
         position ={{ lat: 6.272654, lng: -75.439257}} />
         </Map>
